@@ -1,6 +1,5 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.12)
 project(print)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(print STATIC \${CMAKE_CURRENT_SOURCE_DIR}/hw1.cpp)
-include_directories(\${CMAKE_CURRENT_SOURCE_DIR}/include)
