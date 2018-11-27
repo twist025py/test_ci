@@ -7,5 +7,5 @@ compiler:
 branches:
   only:
     - master
-script:
-  - make
+stages:
+  - compile
