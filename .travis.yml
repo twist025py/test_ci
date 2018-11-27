@@ -8,4 +8,4 @@ branches:
   only:
     - master
 script:
-  - scons
+  - gcc hw1.cpp
