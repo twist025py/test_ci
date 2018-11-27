@@ -1,3 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
-
+project(print)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+add_library(print STATIC \${CMAKE_CURRENT_SOURCE_DIR}/sources/print.cpp)
+include_directories(\${CMAKE_CURRENT_SOURCE_DIR}/include)
 add_executable(main hw1.cpp)	
